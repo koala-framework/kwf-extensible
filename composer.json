@@ -1,0 +1,25 @@
+{
+    "name": "koala-framework/kwf-extensible",
+    "description": "Extensible Integration for Koala Framework",
+    "homepage": "http://www.koala-framework.org/",
+    "license": "BSD",
+    "type": "library",
+    "require": {
+        "koala-framework/library-extensible": "dev-master",
+        "koala-framework/library-extjs": "4.2.*",
+        "koala-framework/koala-framework": "dev-composer"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "3.7.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Kwf_Extensible_": ""
+        }
+    },
+    "autoload-dev": {
+        "psr-0": {
+            "Kwf_Extensible_": "tests"
+        }
+    }
+}
