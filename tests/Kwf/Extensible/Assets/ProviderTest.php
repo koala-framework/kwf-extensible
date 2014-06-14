@@ -1,5 +1,5 @@
 <?php
-class Kwf_Extensible_Assets_ProviderTest extends Kwf_Test_TestCase
+class Kwf_Extensible_Assets_ProviderTest extends PHPUnit_Framework_TestCase
 {
     public function testObservable()
     {
