@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "52670c7859ce8cd219fa33999b505820",
+    "hash": "3b4b3db2f4e5ff4dbe0ff4561c7f3ea2",
     "packages": [
         {
             "name": "koala-framework/koala-framework",
