@@ -10,7 +10,7 @@ before_script:
   - echo "server.domain = localhost:8080" >> tests/config.local.ini
   - echo 'server.baseUrl = ""' >> tests/config.local.ini
   - echo "server.uglifyjs = `pwd`/node_modules/.bin/uglifyjs" >> tests/config.local.ini
-  - chmod a+w cache/*
+#  - chmod a+w cache/*
   - composer self-update
   - composer install
   - php -S localhost:8080 bootstrap.php &
