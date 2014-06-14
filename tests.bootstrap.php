@@ -1,4 +1,5 @@
 <?php
 define('KWF_PATH', 'vendor/koala-framework/koala-framework');
 define('VENDOR_PATH', 'vendor');
-require KWF_PATH.'/Kwf/Debug.php';
+require VENDOR_PATH.'/koala-framework/koala-framework/Kwf/Setup.php';
+Kwf_Setup::setUp('Kwf_Extensible_Config');
