@@ -2,7 +2,7 @@
     "name": "koala-framework/kwf-extensible",
     "description": "Extensible Integration for Koala Framework",
     "homepage": "http://www.koala-framework.org/",
-    "license": "BSD",
+    "license": "BSD-2-Clause",
     "type": "library",
     "require": {
         "koala-framework/library-extensible": "dev-master",
