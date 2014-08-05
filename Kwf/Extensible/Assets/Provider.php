@@ -21,7 +21,8 @@ class Kwf_Extensible_Assets_Provider extends Kwf_Assets_Provider_Abstract
             return array(
                 Kwf_Assets_Dependency_Abstract::DEPENDENCY_TYPE_REQUIRES => array(
                     $this->_providerList->findDependency('Extensible'),
-                    new Kwf_Extensible_Assets_CssDependency('extensible/resources/css/extensible-all.css')
+                    new Kwf_Extensible_Assets_CssDependency('extensible/resources/css/calendar.css'),
+                    new Kwf_Extensible_Assets_CssDependency('extensible/resources/css/calendar-colors.css'),
                 ),
             );
         }
