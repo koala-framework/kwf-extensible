@@ -25,5 +25,7 @@
         "psr-0": {
             "Kwf_Extensible_": "tests"
         }
-    }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
