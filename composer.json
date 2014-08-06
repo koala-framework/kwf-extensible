@@ -10,7 +10,7 @@
     "extra": {
         "require-bower": {
             "extjs": "4.2.*",
-            "extensible": "vivid-planet/Extensible#master"
+            "extensible": "vivid-planet/Extensible#vivid"
         }
     },
     "require-dev": {
