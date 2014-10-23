@@ -5,7 +5,7 @@
     "license": "BSD-2-Clause",
     "type": "library",
     "require": {
-        "koala-framework/kwf-extjs": "dev-master"
+        "koala-framework/kwf-extjs": "3.8.x-dev"
     },
     "extra": {
         "require-bower": {
